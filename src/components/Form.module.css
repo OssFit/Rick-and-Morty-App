@@ -1,0 +1,56 @@
+.div{
+    min-width: 100vh;
+    min-height: 110vh;
+    background-position: center;
+    background-image: url('../components/imagenes/fondo_login.png');
+    
+}
+
+.label{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    opacity: 0.8;
+    background-color: black;
+    border-radius: 15px;
+    max-width: 260px;
+    min-height: 320px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 3px;
+    
+}
+
+.pErrorU,.pErrorP{
+    color: tomato;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    text-align:center;
+    
+
+}
+
+.pUser,.pPassword{
+    color:chartreuse;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-small;
+    margin-left: 1em;
+    
+
+}
+
+.user,.pass{
+   margin: auto 1em;
+}
+
+.btnLogin{
+    margin-top: 1em;
+    margin-left: 5em;
+    min-height: 50px;
+    min-width: 90px;
+    
+}

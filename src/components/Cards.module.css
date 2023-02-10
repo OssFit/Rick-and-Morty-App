@@ -1,0 +1,27 @@
+   
+   
+   
+
+.cardsClass{
+  
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3em;
+  
+
+  
+
+
+} 
+
+/* .contenedorCards{
+    background-image: url('./imagenes/fondo-module.jpg');
+   background-size: 100%;
+   background-position: 100%;
+   max-height: 1800px;
+   max-width: 1700px;
+   
+} */

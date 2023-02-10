@@ -1,0 +1,26 @@
+.cardName {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .card-info {
+    text-align: center;
+  }
+  
+  .card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card-title {
+    margin: 10px 0;
+  }
+  
+ .card{
+    background-color:rgba(0, 247, 255, 0.65);
+    box-shadow: 0 0 20px #4f9;
+
+
+ }

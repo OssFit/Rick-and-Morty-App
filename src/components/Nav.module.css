@@ -1,0 +1,58 @@
+
+.navDiv{
+    width: 97vw;
+    margin:auto;
+    min-height: 140px;
+    max-height:600px ;
+    border-color: rgb(106, 78, 116);
+    border-style: solid;
+    border-width: 3px;
+    display:flex;
+    flex-flow: row wrap;
+    background-color:rgba(0,0,0,0.5);
+    font-size: 40px;
+    align-items: center;
+}
+
+
+.home,.about,.favorites,.logout{
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    height: 80px;
+    width: 140px;
+    background-color:rgb(84, 55, 145);
+    opacity: 0.8;
+    margin-left: 0.5em;
+    margin-top:0.3em;
+    color: aliceblue;
+    box-shadow: 0 0 20px #4f9;
+    font-size: 23px;
+    display: block;
+  
+    
+   
+}
+.logoContainner{
+padding:1vw
+}
+
+
+.home:hover,.about:hover,.favorites:hover,.logout:hover{
+
+transform: scale(1.1);
+}
+
+
+
+@media(max-width: 550px) {
+    .navDiv{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        
+      
+    }
+  }
