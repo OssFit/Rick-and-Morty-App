@@ -53,8 +53,12 @@ export default function Form({ login }) {
           <button type="submit" className={styles.btnLogin}>
             Login
           </button>
+          <p className={styles.data}>USER: ejemplo@gmail.com</p>
+      <p className={styles.data}>PASS:Password123</p>
         </label>
+       
       </form>
+     
     </div>
   );
 }

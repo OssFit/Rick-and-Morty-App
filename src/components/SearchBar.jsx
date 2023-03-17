@@ -24,7 +24,7 @@ export default function SearchBar(props) {
           className={styles.barra}
           type="search"
           onChange={pasarId}
-          placeholder='Write the Character ID to Find'
+          placeholder='Write the Character ID to Find. Ej: 77'
         />
         <button className={styles.boton} onClick={arrowClick}>
           Agregar
